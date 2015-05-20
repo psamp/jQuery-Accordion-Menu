@@ -1,0 +1,39 @@
+body {
+  font-family: "Open Sans";
+  font-weight: 300;
+  font-size: 20px; }
+
+.container {
+  width: 526px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 250px;
+  border: 1px solid #03B4C3;
+  border-top: none; }
+
+.menu {
+  background-color: #FEFEFE; }
+
+.menu p {
+  font-size: 15px;
+  color: #8C8E90;
+  width: 95%;
+  margin-left: 20px; }
+
+button {
+  width: 100%;
+  text-align: left;
+  padding-left: 25px;
+  color: #fff;
+  background: #03C6D6;
+  border-style: none;
+  border-top: 1px solid #03B4C3 !important;
+  border-style: none;
+  outline: none; }
+
+button:hover {
+  background-color: #03DBEC;
+  transition: 1s all ease; }
+
+.hide {
+  display: none; }
