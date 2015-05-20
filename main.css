@@ -1,7 +1,8 @@
 body {
   font-family: "Open Sans";
   font-weight: 300;
-  font-size: 20px; }
+  font-size: 20px;
+  overflow: hidden; }
 
 .container {
   width: 526px;
@@ -11,6 +12,9 @@ body {
   border: 1px solid #03B4C3;
   border-top: none; }
 
+.container content {
+  overflow: hidden; }
+
 .menu {
   background-color: #FEFEFE; }
 
@@ -18,7 +22,9 @@ body {
   font-size: 15px;
   color: #8C8E90;
   width: 95%;
-  margin-left: 20px; }
+  height: 0;
+  margin-left: 20px;
+  margin: 0; }
 
 button {
   width: 100%;
@@ -35,5 +41,6 @@ button:hover {
   background-color: #03DBEC;
   transition: 1s all ease; }
 
-.hide {
-  display: none; }
+.show {
+  height: 100px;
+  padding: 0; }
