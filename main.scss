@@ -4,60 +4,60 @@ $bordercolor:#03B4C3;
 $fontcolor: #8C8E90;
 $white: #fff;
 $font: 'Open Sans';
+$transition:1s all ease;
 
 body{
   font-family: $font;
   font-weight:300;
   font-size:20px;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .container {
+  font-family: $font;
   width:526px;
   margin-left:auto;
   margin-right:auto;
   margin-top:250px;
   border: 1px solid $bordercolor;
   border-top:none;
-    .content {
-      overflow: hidden;
-    }
+  background-color:#FEFEFE;
+  transition: $transition;
 }
 
-.menu {
-  background-color:#FEFEFE;
+section {
+  
   p {
     font-size:15px;
     color:$fontcolor;
     width: 95%;
-    margin:0;
     margin-left:20px;
- }
+    transition: $transition;
+    overflow:hidden;
  }
 
-button {
-  width:100%;
-  text-align:left;
-  padding-left:25px;
-  color:$white;
-  background:$buttoncolor;
-  border-style: none;
-  border-top: 1px solid $bordercolor !important;
-  border-style: none;
-  outline:none;
-    &:hover {
-      background-color: $buttonhover;
-      transition: 1s all ease;
-    }
+  button {
+    width:100%;
+    text-align:left;
+    padding-left:25px;
+    color:$white;
+    background:$buttoncolor;
+    border-style: none;
+    border-top: 1px solid $bordercolor !important;
+    border-style: none;
+    outline:none;
+    font-weight:300;
+    font-size:25px;
+
+      &:hover {
+        background-color: $buttonhover;
+        transition: $transition;
+      }
+  }
 }
 
-.show {
-  height:100px;
+.hide {
+  height:0;
   padding:0;
-}
-
-.content {
-height:0;
-}
-
-}
+  margin:0;
+} 
