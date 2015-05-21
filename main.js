@@ -1,20 +1,17 @@
-var para1 = $("var box = '<div id=""></div>';");
-var para2 = $("#btntwocontent");
-var para3 = $("#btnthreecontent");
+//add class "hide" to all the paras, then removes it for the first one
 
-$("#btnone").on("click", function () {
+$("section p").addClass("hide");
+$("section p:first").removeClass("hide");
 
-  para.toggleClass("hide");
-  para2.addClass("hide");
-  para2.addClass("hide");
-});
+//when one of the buttons is clicked
 
-$("#btntwo").on("click", function () {
+  $("section button").on("click", function () {
 
-  para.addClass("show");
-});
+  //add class hidden to the paragraphs inside section
+  $("section p").addClass("hide");
 
-$("#btnthree").on("click", function () {
+  //but this is a function connected to '.on ("click")' for all the buttons, I'm removing the class "hidden" for the one that actually got clicked
 
-  para.addClass("show");
+  $(this).next().removeClass("hide");
+
 });

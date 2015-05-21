@@ -23,10 +23,10 @@ body{
     a {
       color:lightgrey;
       text-decoration: none;
-
+      transition: $transition;
         &:hover {
           color:$buttoncolor;
-          transition: $transition;
+          transition:$transition;
         }
     }
 }
