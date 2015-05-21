@@ -1,29 +1,33 @@
 body {
   font-family: "Open Sans";
   font-weight: 300;
-  font-size: 20px; }
+  font-size: 20px;
+  overflow: hidden; }
 
 .container {
+  font-family: "Open Sans";
   width: 526px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 250px;
   border: 1px solid #03B4C3;
   border-top: none;
-  background-color: #FEFEFE; }
+  background-color: #FEFEFE;
+  transition: 1s all ease; }
   .container a {
     color: lightgrey;
-    text-decoration: none;
-    transition: 1.5s all ease; }
+    text-decoration: none; }
     .container a:hover {
       color: #03C6D6;
-      transition: 1.5s all ease; }
+      transition: 1s all ease; }
 
 section p {
   font-size: 15px;
   color: #8C8E90;
   width: 95%;
-  margin-left: 20px; }
+  margin-left: 20px;
+  transition: 1s all ease;
+  overflow: hidden; }
 
 section button {
   width: 100%;
@@ -34,10 +38,14 @@ section button {
   border-style: none;
   border-top: 1px solid #03B4C3 !important;
   border-style: none;
-  outline: none; }
+  outline: none;
+  font-weight: 300;
+  font-size: 25px; }
   section button:hover {
     background-color: #03DBEC;
     transition: 1s all ease; }
 
 .hide {
-  display: none; }
+  height: 0;
+  padding: 0;
+  margin: 0; }
