@@ -23,6 +23,15 @@ body{
   border-top:none;
   background-color:#FEFEFE;
   transition: $transition;
+    a {
+      color:lightgrey;
+      text-decoration: none;
+
+        &:hover {
+          color:$buttoncolor;
+          transition: $transition;
+      }
+    }
 }
 
 section {
