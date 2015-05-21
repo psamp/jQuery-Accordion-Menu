@@ -4,6 +4,7 @@ $bordercolor:#03B4C3;
 $fontcolor: #8C8E90;
 $white: #fff;
 $font: 'Open Sans';
+$transition: 1.5s all ease;
 
 body{
   font-family: $font;
@@ -19,8 +20,6 @@ body{
   border: 1px solid $bordercolor;
   border-top:none;
   background-color:#FEFEFE;
-<<<<<<< HEAD
-  transition: $transition;
     a {
       color:lightgrey;
       text-decoration: none;
@@ -28,23 +27,18 @@ body{
         &:hover {
           color:$buttoncolor;
           transition: $transition;
-      }
+        }
     }
 }
 
 section {
-  
-=======
->>>>>>> parent of f56446c... fixed html, css, and js. need to add links!
   p {
      font-size:15px;
      color:$fontcolor;
      width: 95%;
      margin-left:20px;
  }
-}
-
-button {
+  button {
   width:100%;
   text-align:left;
   padding-left:25px;
@@ -58,6 +52,7 @@ button {
       background-color: $buttonhover;
       transition: 1s all ease;
     }
+}
 }
 
 .hide {

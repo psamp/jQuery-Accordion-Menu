@@ -9,57 +9,22 @@ body {
   margin-right: auto;
   margin-top: 250px;
   border: 1px solid #03B4C3;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  border-top: none; }
-
-.container content {
-  overflow: hidden; }
-
-.menu {
-  background-color: #FEFEFE; }
-=======
   border-top: none;
-  background-color: #FEFEFE;
-  transition: 1s all ease; }
-<<<<<<< HEAD
+  background-color: #FEFEFE; }
   .container a {
     color: lightgrey;
     text-decoration: none; }
     .container a:hover {
       color: #03C6D6;
-      transition: 1s all ease; }
-=======
->>>>>>> master
->>>>>>> gh-pages
+      transition: 1.5s all ease; }
 
 section p {
   font-size: 15px;
   color: #8C8E90;
   width: 95%;
-<<<<<<< HEAD
-  height: 0;
-  margin-left: 20px;
-  margin: 0; }
-=======
-  margin-left: 20px;
-  transition: 1s all ease;
-  overflow: hidden; }
->>>>>>> master
-=======
-  border-top: none; }
+  margin-left: 20px; }
 
-.menu {
-  background-color: #FEFEFE; }
-  
-  .menu p {
-    font-size: 15px;
-    color: #8C8E90;
-    width: 95%;
-    margin-left: 20px; }
->>>>>>> parent of f56446c... fixed html, css, and js. need to add links!
-
-button {
+section button {
   width: 100%;
   text-align: left;
   padding-left: 25px;
@@ -69,21 +34,9 @@ button {
   border-top: 1px solid #03B4C3 !important;
   border-style: none;
   outline: none; }
-  button:hover {
+  section button:hover {
     background-color: #03DBEC;
     transition: 1s all ease; }
 
-<<<<<<< HEAD
-.show {
-  height: 100px;
-  padding: 0; }
-=======
 .hide {
-<<<<<<< HEAD
-  height: 0;
-  padding: 0;
-  margin: 0; }
->>>>>>> master
-=======
   display: none; }
->>>>>>> parent of f56446c... fixed html, css, and js. need to add links!
