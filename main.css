@@ -1,16 +1,15 @@
 body {
   font-family: "Open Sans";
   font-weight: 300;
-  font-size: 20px;
-  overflow: hidden; }
+  font-size: 20px; }
 
 .container {
-  font-family: "Open Sans";
   width: 526px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 250px;
   border: 1px solid #03B4C3;
+<<<<<<< HEAD
 <<<<<<< HEAD
   border-top: none; }
 
@@ -47,8 +46,20 @@ section p {
   transition: 1s all ease;
   overflow: hidden; }
 >>>>>>> master
+=======
+  border-top: none; }
 
-section button {
+.menu {
+  background-color: #FEFEFE; }
+  
+  .menu p {
+    font-size: 15px;
+    color: #8C8E90;
+    width: 95%;
+    margin-left: 20px; }
+>>>>>>> parent of f56446c... fixed html, css, and js. need to add links!
+
+button {
   width: 100%;
   text-align: left;
   padding-left: 25px;
@@ -57,10 +68,8 @@ section button {
   border-style: none;
   border-top: 1px solid #03B4C3 !important;
   border-style: none;
-  outline: none;
-  font-weight: 300;
-  font-size: 25px; }
-  section button:hover {
+  outline: none; }
+  button:hover {
     background-color: #03DBEC;
     transition: 1s all ease; }
 
@@ -70,7 +79,11 @@ section button {
   padding: 0; }
 =======
 .hide {
+<<<<<<< HEAD
   height: 0;
   padding: 0;
   margin: 0; }
 >>>>>>> master
+=======
+  display: none; }
+>>>>>>> parent of f56446c... fixed html, css, and js. need to add links!
