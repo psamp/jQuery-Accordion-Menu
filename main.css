@@ -13,12 +13,12 @@ body {
 
 .menu {
   background-color: #FEFEFE; }
-
-.menu p {
-  font-size: 15px;
-  color: #8C8E90;
-  width: 95%;
-  margin-left: 20px; }
+  
+  .menu p {
+    font-size: 15px;
+    color: #8C8E90;
+    width: 95%;
+    margin-left: 20px; }
 
 button {
   width: 100%;
@@ -30,10 +30,9 @@ button {
   border-top: 1px solid #03B4C3 !important;
   border-style: none;
   outline: none; }
-
-button:hover {
-  background-color: #03DBEC;
-  transition: 1s all ease; }
+  button:hover {
+    background-color: #03DBEC;
+    transition: 1s all ease; }
 
 .hide {
   display: none; }
